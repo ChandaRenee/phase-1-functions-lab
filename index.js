@@ -1,9 +1,5 @@
 function distanceFromHqInBlocks(pickUp) {
-    if (pickUp > 42) {
-        return (pickUp - 42)
-    } else {
-        return (42 - pickUp)
-    }
+    return Math.abs(pickUp - 42)
 }
 
 function distanceFromHqInFeet(pickUp) {
